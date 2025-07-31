@@ -28,6 +28,8 @@ int		main(int ac, char **av)
 				*av[1] -= 32;
 				write(1, av[1], 1);
 			}
+			else
+    				write(1, av[1], 1);
 			av[1]++;
 		}
 	}
